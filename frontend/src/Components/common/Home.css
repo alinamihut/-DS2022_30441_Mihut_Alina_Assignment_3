@@ -1,0 +1,89 @@
+
+* {
+    text-align: center;
+}
+
+.logo {
+    margin: auto
+}
+
+.jumbotron {
+    margin: 100px auto;
+    max-width: 50%;
+    text-align: center;
+}
+
+.card {
+    width: 18rem;
+    margin: 100px auto;
+}
+body {
+    padding: 40px;
+    font-family: Sans-Serif;
+    text-align: center;
+}
+
+.centered {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:auto;
+    flex-direction: column;
+}
+
+.textfield {
+    margin-top: 20px;
+    align-items: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    font-size: 5em;
+}
+
+.form-line{
+    text-align: center;}
+
+.button{
+    margin-left: 100px;
+    margin-top: 19px;
+    padding: 14px 40px;
+    align-items: center;
+}
+
+.button2{
+    margin-top: 19px;
+    padding: 14px 40px;
+    flex: auto;
+    align-items: center;
+}
+
+table {
+    border: 2px solid #555;
+    border-collapse: collapse;
+    font: 16px "Lucida Grande", "Helvetica", "Arial", sans-serif;
+}
+
+td, th {
+    border: 1px solid #999;
+    padding: 0.5rem;
+}
+thead > tr > th {
+    background-color: #2B585E;
+    font-size: 18px;
+    border-bottom: 2px solid #999;
+}
+
+.datePicker {
+    width: 100%;
+}
+
+.label{
+    font-size: 17px;
+}

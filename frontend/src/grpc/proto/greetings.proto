@@ -1,0 +1,22 @@
+syntax="proto3";// syntax of the proto file (current version is 3)
+package proto.greet; // package where we will generate the file
+
+option java_multiple_files = true;
+
+// The chat service definition.
+service ChatService {
+  // Sends a message to all connected clients.
+  rpc SendMessage(Message) returns (Response);
+}
+
+// A message sent by a client.
+message Message {
+  string user = 1;
+  string text = 2;
+}
+
+// A response sent by the server.
+message Response {
+  bool success = 1;
+  string error = 2;
+}
